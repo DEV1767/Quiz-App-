@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  color: #2e2e2e;
+}
+.start1{
+    height: 250px;
+    width: 500px;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+     background: linear-gradient(135deg, #f5f7fa, #c3cfe2); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+#start{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    
+
+}
+.st{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 20px;
+    width: auto;
+}
+#st{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+}
+#st:hover{
+  position: relative;
+    z-index: 10;
+      background-color: #6faaf5;
+    transform: scale(1.1); 
+
+  
+}
+.section1{
+    height: auto;
+    width: 600px;
+    background-color: #ffffff;
+    border: 2px solid #d1d5db;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+    flex-direction: column;
+}
+h1{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.quest{
+    padding: 10px;
+    font-size: 25px;
+    height:auto;
+    width: auto;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn{
+
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 10px;
+  margin-top: 15px;
+}
+input[type="radio"]{
+    height: 15px;
+    width: 20px;
+    cursor: pointer;
+}
+
+label {
+   font-size: 25px;
+   padding: 10px;
+   border-radius: 10px;
+   transition: all 0.1s ease-in-out;
+    background-color: #f9fafb;
+    border: 2px solid #d1d5db;
+}
+label:hover{
+    border-radius: 20px;
+    position: relative;
+    z-index: 10;
+    transform: scale(1.05);
+    background-color: #fffbe6;
+    border-color: #4a90e2;
+}
+
+.btn2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#sumbit{
+  padding:10px;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+  background-color: #4a90e2;
+ color: white;
+ border: none;
+}
+#restart{
+  padding:10px;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
+     background-color: #4a90e2;
+    color: white;
+    border: none;
+}
+#sumbit:hover{
+   position: relative;
+    z-index: 10;
+      background-color: #6faaf5;
+
+    transform: scale(1.1); 
+}
+#restart:hover{
+   position: relative;
+    z-index: 10;
+     background-color: #6faaf5;
+
+    transform: scale(1.1); 
+} 
+.section2{
+    display: none;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    margin-top: 100px;
+    height: auto;
+    width: auto;
+}
+.score{
+    height: 250px;
+    width: 500px;
+    border: 5px solid black;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+ background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+.totalques{
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.sv{
+    height: 12px;
+    width:90% ;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.sv1{
+    background-color: #007bff;
+    height: 12px;
+    width:0%;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+.attempt{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.sv3{
+    height: 12px;
+    width:90% ;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.sv4{
+  background-color: #ff9800;
+    height: 12px;
+    width:0%;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+.marks{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.sv5{
+    height: 12px;
+    width:90% ;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 10px;
+   
+}
+.sv6{
+   background-color: #4caf50;
+    height: 12px;
+    width:0%;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+.marksobtain{
+    height: 50px;
+    width: 270px;;
+    margin:auto;
+    margin-top: 50px;;
+    font-size: 30px;
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
